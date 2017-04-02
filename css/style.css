@@ -1,35 +1,57 @@
 @font-face {
   font-family: thaisans;
   src: url("../fonts/ThaiSansNeue-ExtraLight.otf"); }
-.nav a:hover {
-  background-color: #444 !important;
-  color: #fff !important; }
-
-.nav a.active {
-  background-color: #1BBC9B;
-  color: #fff !important; }
+@font-face {
+  font-family: Franklin;
+  src: url("../fonts/Franklin.ttf"); }
+.nav {
+  list-style: none;
+  margin: 60px auto; }
 
 .nav a {
   background-color: none;
-  color: #1BBC9B !important;
+  color: #fff !important;
   line-height: 30px;
   height: 40px;
-  padding: 10px 20px !important;
   border-radius: 100px;
   font-weight: 200;
-  margin: 0px 5px; }
+  font-family: 'Franklin';
+  float: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
-header {
-  background: #00a8c6;
-  color: #fff;
-  background: -moz-linear-gradient(30deg, #00a8c6 0%, #40c0cb 100%);
-  background: -webkit-linear-gradient(30deg, #00a8c6 0%, #40c0cb 100%);
-  background: -o-linear-gradient(30deg, #00a8c6 0%, #40c0cb 100%);
-  background: -ms-linear-gradient(30deg, #00a8c6 0%, #40c0cb 100%);
-  background: linear-gradient(120deg, #00a8c6 0%, #40c0cb 100%); }
+.nav-link {
+  font-size: 0.7rem;
+  text-align: center; }
 
 .navbar {
-  margin: 0px 0 0px 0; }
+  display: block;
+  margin: auto;
+  background-color: #EF4036;
+  height: 160px; }
+
+#logo {
+  height: 120px;
+  background-color: #fff;
+  padding-top: 20px;
+  z-index: 99999; }
+
+#logo img {
+  display: block;
+  margin: auto; }
+
+.language {
+  color: #EF4036;
+  font-size: 0.6rem;
+  text-align: right;
+  width: 1080px;
+  margin: auto;
+  font-family: 'Franklin'; }
+
+.navbar_center {
+  display: block;
+  margin: auto; }
 
 .fullwidth {
   width: 100%; }
