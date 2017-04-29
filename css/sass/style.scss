@@ -112,14 +112,11 @@ $white-font-color: #fff;
   background-size: 100%;
   }
 
-  header{
-    height: 400px;
-    background-size: cover;
-  }
+ 
 
   .rowblock{
 
-    height: 400px;
+    height: 500px;
   }
 }
 @media (max-width: 992px) {
@@ -131,7 +128,6 @@ $white-font-color: #fff;
   background-size: 100% !important;
   }
   header{
-    height: 650px;
     background-size: cover;
       margin-bottom: 30px;
   }
