@@ -91,6 +91,75 @@ body {
 .login a {
   color: #FFF;}
 
+.menusub {
+  margin: 20px 20px;
+  font-family: 'SukhumvitSet';
+  font-size: 14px;  
+}
+
+.menusub a {
+  font-family: 'SukhumvitSet';
+  font-size: 14px;  
+}
+.product_pic {
+  width: 550px;
+  float: left;
+}
+.product_img img {
+  border-radius: 25px;
+  margin: 0px 50px 20px 50px;
+}
+.product_thum img {
+  margin: 0px 10px 20px 10px;
+}
+.product_description {
+  float: left;
+  width: 450px;
+}
+.product_title {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'SukhumvitSet';
+  color: black;
+  margin: 20px 20px;
+}
+.dmyttt {
+  text-align: right;
+  font-size: 12px;
+  font-family: 'SukhumvitSet';
+  color: black;
+}
+.barpink {
+  width: 420px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: #F06D87;
+  margin: auto;
+}
+.product_content {
+  margin: 20px 20px;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: 'SukhumvitSet';
+  color: black;
+}
+.product_size {
+  width: 250px;
+  margin: 20px 20px;
+}
+.product_size img {
+  margin-bottom: 10px;
+}
+
+.w3-btn,.w3-button{border:none;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.w3-btn,.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.w3-disabled,.w3-btn:disabled,.w3-button:disabled{cursor:not-allowed;opacity:0.3}.w3-disabled *,:disabled *{pointer-events:none}
+.w3-btn.w3-disabled:hover,.w3-btn:disabled:hover{box-shadow:none}
+.w3-border-0{border:0!important}.w3-border{border:1px solid #ccc!important}
+.w3-border-top{border-top:1px solid #ccc!important}.w3-border-bottom{border-bottom:1px solid #ccc!important}
+.w3-border-left{border-left:1px solid #ccc!important}.w3-border-right{border-right:1px solid #ccc!important}
+.w3-round-large{border-radius:8px}
 
 .textbox { 
     background: #FFF url("../images/search_icon.png") no-repeat; 
