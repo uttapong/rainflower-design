@@ -100,6 +100,7 @@ body {
 .menusub a {
   font-family: 'SukhumvitSet';
   font-size: 14px;  
+  color: #000;
 }
 .product_pic {
   width: 550px;
@@ -406,7 +407,10 @@ body {
   z-index: 99999px;
   } 
 .nextpage {
-  
+ float: right; 
+}
+.nextpage img {
+ margin-left: 150px; 
 }
 .newproducts {
   margin: auto;
