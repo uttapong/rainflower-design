@@ -112,6 +112,9 @@ body {
 .product_thum img {
   margin: 0px 10px 20px 10px;
 }
+.likeshare {
+  float: right;
+}
 .product_description {
   float: left;
   width: 450px;
@@ -134,7 +137,7 @@ body {
   height: 5px;
   border-radius: 3px;
   background-color: #F06D87;
-  margin: auto;
+  margin: 20px 20px;
 }
 .product_content {
   margin: 20px 20px;
@@ -144,11 +147,68 @@ body {
   color: black;
 }
 .product_size {
-  width: 250px;
-  margin: 20px 20px;
+  width: 200px;
+  margin: 20px 0px 20px 20px;
+  float: left;
 }
 .product_size img {
-  margin-bottom: 10px;
+  width: 40px;
+}
+
+.product_price {
+  float: right;
+  width: 220px;
+  
+}
+.pricebig {
+  font-family: 'DSESKW'; 
+  color: red;
+  font-size: 70px;
+  font-weight: bold;
+}
+.discount {
+  margin: 10px 10px;
+  float: left;
+  width: 50px;
+  color: #BE1E2D;
+  line-height: 20px;
+  font-size: 30px;
+}
+.price_true {
+  float: left;
+  width: 200px;
+  color: #BE1E2D;
+  font-size: 30px;
+  text-decoration:line-through;
+  text-align: right;
+}
+.addtobag {
+  margin-left: 5px;
+  width: 168px;
+  float: left;
+  font-family: 'DSESKW'; 
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+
+.addtobag a {
+  margin-right: 20px;
+  color: red;
+  font-weight: bold;
+}
+.line-x {
+  float: left;
+  height: 200px;
+  width: 2px;
+  background-color: #D1D2D4;
+}
+.fragrance {
+  margin-left: 10px;
+  float: left;
+  width: 265px;
+  height: 200px;
+  
 }
 
 .w3-btn,.w3-button{border:none;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
@@ -156,7 +216,7 @@ body {
 .w3-btn,.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
 .w3-disabled,.w3-btn:disabled,.w3-button:disabled{cursor:not-allowed;opacity:0.3}.w3-disabled *,:disabled *{pointer-events:none}
 .w3-btn.w3-disabled:hover,.w3-btn:disabled:hover{box-shadow:none}
-.w3-border-0{border:0!important}.w3-border{border:1px solid #ccc!important}
+.w3-border-0{border:0!important}.w3-border{border:3px solid #A7A9AB!important}
 .w3-border-top{border-top:1px solid #ccc!important}.w3-border-bottom{border-bottom:1px solid #ccc!important}
 .w3-border-left{border-left:1px solid #ccc!important}.w3-border-right{border-right:1px solid #ccc!important}
 .w3-round-large{border-radius:8px}
