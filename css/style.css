@@ -370,17 +370,17 @@ body {
 
 .bestseller_bg {
   width: auto;
-  height: 270px;
+  height: 250px;
   background-color: #FFF;
   
 }
 
 .bestseller {
-  width: 150px;
-  height: 150px;
+  width: 230px;
+  height: 230px;
   float: left;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   position:relative
   
 }
@@ -388,7 +388,6 @@ body {
 .bestseller img {
     border: 1px solid #ddd;
     padding: 5px;
-    width: 170px;
     color: #FFF;
     background-color: white;
     
