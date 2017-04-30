@@ -148,11 +148,8 @@ body {
 }
 .product_size {
   width: 200px;
-  margin: 20px 0px 20px 20px;
+  margin-left: 20px;
   float: left;
-}
-.product_size img {
-  width: 40px;
 }
 
 .product_price {
@@ -165,6 +162,7 @@ body {
   color: red;
   font-size: 70px;
   font-weight: bold;
+  height: 70px;
 }
 .discount {
   margin: 10px 10px;
@@ -173,6 +171,7 @@ body {
   color: #BE1E2D;
   line-height: 20px;
   font-size: 30px;
+  font-weight: bold;
 }
 .price_true {
   float: left;
@@ -181,6 +180,7 @@ body {
   font-size: 30px;
   text-decoration:line-through;
   text-align: right;
+  height: 30px;
 }
 .addtobag {
   margin-left: 5px;
@@ -202,13 +202,39 @@ body {
   height: 200px;
   width: 2px;
   background-color: #D1D2D4;
+  margin-bottom: 20px;
 }
 .fragrance {
   margin-left: 10px;
   float: left;
   width: 265px;
   height: 200px;
-  
+}
+.fragrance p{
+ color: #EF4036;
+ font-family: 'DSESKW'; 
+ font-size: 40px;
+ text-align: center;
+}
+.what_fragrance {
+  font-family: 'SukhumvitSet';
+  color: #FFF;
+  font-size: 15px;
+  width: 244px;
+  height: 38px;
+  background: url("../images/what_fragrance.png") no-repeat;
+  border: 0px;
+   margin: 5px 10px;
+}
+.select_fragrance {
+  font-family: 'SukhumvitSet';
+  color: #FFF;
+  font-size: 15px;
+  width: 244px;
+  height: 38px;
+  background: url("../images/select_fragrance.png") no-repeat;
+  border: 0px;
+  margin: 5px 10px;
 }
 .product_brand {
   width: 450px;
@@ -266,16 +292,16 @@ body {
   width: 300px;
   border-radius: 10px;
 }
-
-.w3-btn,.w3-button{border:none;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
-.w3-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
-.w3-btn,.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
-.w3-disabled,.w3-btn:disabled,.w3-button:disabled{cursor:not-allowed;opacity:0.3}.w3-disabled *,:disabled *{pointer-events:none}
-.w3-btn.w3-disabled:hover,.w3-btn:disabled:hover{box-shadow:none}
-.w3-border-0{border:0!important}.w3-border{border:3px solid #A7A9AB!important}
-.w3-border-top{border-top:1px solid #ccc!important}.w3-border-bottom{border-bottom:1px solid #ccc!important}
-.w3-border-left{border-left:1px solid #ccc!important}.w3-border-right{border-right:1px solid #ccc!important}
-.w3-round-large{border-radius:8px}
+.view_table_size {
+  color: #000;
+  font-size: 18px;
+  border-radius: 25px;
+  background-color: #fff;
+  width: 130px;
+  height: 30px;
+  margin: 10px 10px;
+  border: 2px solid #A7A9AB;
+}
 
 .textbox { 
     background: #FFF url("../images/search_icon.png") no-repeat; 
@@ -374,7 +400,6 @@ body {
   position:absolute;
   top:-3px;
   left:-3px;
-  background-position: -20px -20px;
   z-index: 99999px;
   } 
 
