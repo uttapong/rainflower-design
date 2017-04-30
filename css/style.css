@@ -210,6 +210,50 @@ body {
   height: 200px;
   
 }
+.product_brand {
+  width: 450px;
+  float: left;
+  margin: 30px 20px;
+}
+.product_brand_title {
+  text-align: center;
+  width: 450px;
+  margin: auto;
+  font-family: 'DSESKW'; 
+  color:#EF4036;
+  font-size: 30px;
+}
+.product_brand_bar {
+  background-color: #BE1E2D;
+  opacity: 0.8; 
+  height: 50px;
+}
+.product_brand_viewall {
+  float: left;
+  margin:10px 20px;
+  background: url("../images/product_brand_viewall.png") no-repeat;
+  height: 30px;
+  width: 156px;
+  font-size: 20px;
+  font-family: 'DSESKW'; 
+  color:#FFF;
+  text-align: center;
+  border: 0px;
+}
+
+.product_brand_sec {
+  float: right;
+  right: 50px;
+  margin:10px 20px;
+  background: url("../images/product_brand_sec.png") no-repeat;
+  height: 30px;
+  width: 156px;
+  font-size: 18px;
+  font-family: 'DSESKW'; 
+  color:#FFF;
+  text-align: center;
+  border: 0px;
+}
 
 .w3-btn,.w3-button{border:none;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
 .w3-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
