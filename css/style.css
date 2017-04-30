@@ -381,6 +381,7 @@ body {
   float: left;
   margin-left: 10px;
   margin-right: 10px;
+  margin-bottom: 20px;
   position:relative;
   -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
      -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
@@ -404,7 +405,9 @@ body {
   left:-3px;
   z-index: 99999px;
   } 
-
+.nextpage {
+  
+}
 .newproducts {
   margin: auto;
   width: auto;
