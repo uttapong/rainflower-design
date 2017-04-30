@@ -11,12 +11,33 @@
   font-family: SukhumvitSet;
   src: url("../fonts/SukhumvitSet.ttc"); }
 
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+.holder{
+    text-align:center;
+}
+.column{
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    width:auto;
+}
+
 body {
   background-color: #FAFBFB;
 }
 .nav {
   list-style: none;
-  margin: 60px auto; }
+  margin: 100px auto; }
 
 .nav a {
   background-color: none;
@@ -36,21 +57,36 @@ body {
   text-align: center; 
 }
 
-.navbar {
+.navibar {
   display: block;
   margin: auto;
   background-color: #EF4036;
-  height: 160px; }
+  height: 160px; 
+  margin-top: 0px;
+  }
+.navibar-menu{
+  clear:both;
+  margin: 0px auto 0px auto;
+  width: 410px;
+  height: 32px;
+}
+.navibar .content{
+  width: 1000px;
+  margin: 0px auto;
 
-.navbar_bottom {
+}  
+.navibar-search{
+  width: 250px;
+}
+
+.navibar_bottom {
   width: auto;
   height: 40px;
   background-color: #fff;
 }
 #logo {
   height: 40px;
-  background-color: #fff;
-  margin-top: 20px;
+  margin-top: -55px;
   z-index: 99999999;
   position:relative;
    }
@@ -62,20 +98,23 @@ body {
   }
 .logo_icon {
   background: url("../images/rainflower_icon.png") no-repeat; 
-  width: 202px;
+  width: 250px;
   height: 120px;
   float: left;
   z-index: 99999999;
   position:relative;
 }
 .language {
+  position: relative;
   color: #EF4036;
-  background-color: #fff;
   font-size: 0.7rem;
   text-align: right;
   width: 1000px;
-  margin: auto;
-  font-family: 'Franklin'; }
+  height: 30px;
+  margin: 10px auto 0px auto;
+  font-family: 'Franklin'; 
+  line-height: 30px;
+  }
 
 .language a {
   color: #EF4036;}
@@ -84,7 +123,6 @@ body {
   color: #FFF;
   font-size: 0.8rem;
   text-align: right;
-  width: 1000px;
   margin: auto;
   font-family: 'Franklin'; }
 
@@ -303,7 +341,9 @@ body {
   margin: 10px 10px;
   border: 2px solid #A7A9AB;
 }
-
+.right{
+  float:right;
+}
 .textbox { 
     background: #FFF url("../images/search_icon.png") no-repeat; 
     background-position: 215px 5px !important;
@@ -318,6 +358,7 @@ body {
     height:25px; 
     width: 240px; 
     text-align: right;
+    margin: 105px 0px 0px 0px;
 }
 
 .footer {
@@ -561,7 +602,7 @@ body {
 }
 
 
-.navbar_center {
+.navibar_center {
   display: block;
   margin: auto; }
 
@@ -634,4 +675,3 @@ footer {
 .company-icon {
   margin: 20px 0; }
 
-/*# sourceMappingURL=style.css.map */
