@@ -39,7 +39,9 @@ body {
   list-style: none;
   margin: 82px auto 0px auto;
   }
-
+.nav .nav-item{
+  /*margin: 0px 5px;*/
+}
 .nav a {
   background-color: none;
   color: #fff !important;
@@ -50,8 +52,8 @@ body {
   font-family: 'Franklin';
   float: left;
   display: block;
-  margin-left: auto;
-  margin-right: auto; }
+  margin-left: 5px;
+  margin-right: 5px; }
 
 .nav-link {
   font-size: 0.7rem;
@@ -68,7 +70,7 @@ body {
 .navibar-menu{
   clear:both;
   margin: 0px auto 0px auto;
-  width: 410px;
+  width: 500px;
   height: 32px;
 }
 .navibar .content{
