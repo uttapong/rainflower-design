@@ -694,7 +694,27 @@ body {
   background-color: #FFF;
   
 }
-
+.stores {
+  width: 900px;
+  margin: 20px 80px;
+  background-color: #000;
+}
+.stores_logo {
+  width: 180px;
+  margin: 20px 20px;
+  float: left;
+}
+.stores_bar {
+  background-color: #808284;
+  margin: 20px 80px;
+  width: 800px;
+  height: 2px;
+}
+.stores_branch {
+  widows: 400px;
+  float: left;
+  margin: 20px 50px;
+}
 .menu_footer {
   color: #fff;
   font-size: 30px;
