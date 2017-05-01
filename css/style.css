@@ -32,9 +32,6 @@
     width:auto;
 }
 
-body {
-  background-color: #FAFBFB;
-}
 .navigator {
   list-style: none;
   margin: 82px auto 0px auto;
@@ -147,6 +144,12 @@ body {
   font-size: 14px;  
   color: #000;
 }
+.search_result {
+  margin: 20px 20px;
+  font-family: 'SukhumvitSet';
+  font-size: 14px;  
+  float: right;
+}
 .promotion img {
   width: 450px;
   float: left;
@@ -195,13 +198,14 @@ body {
   margin-bottom: 20px;
   border-radius: 20px;
   text-align: center;
+  font-family: 'SukhumvitSet'; 
+  font-size: 14px;
 }
 .character img {
   border-radius: 20px;
 }
 .character a {
   width: 200px;
-  font-size: 18px;
   color: #000;
   text-align: center;
 }
@@ -281,6 +285,7 @@ body {
   margin: 10px auto;
   font-size: 16px;
   line-height: 20px;
+  font-family: 'SukhumvitSet'; 
 }
 .character_related_viewall {
   margin: auto;
@@ -367,6 +372,7 @@ body {
   font-size: 70px;
   font-weight: bold;
   height: 70px;
+  line-height: 60px;
 }
 .discount {
   margin: 10px 10px;
@@ -374,7 +380,7 @@ body {
   width: 50px;
   color: #BE1E2D;
   line-height: 20px;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
 }
 .price_true {
@@ -385,6 +391,7 @@ body {
   text-decoration:line-through;
   text-align: right;
   height: 30px;
+  margin-top: -15px;
 }
 .addtobag {
   margin-left: 5px;
@@ -445,10 +452,12 @@ body {
   margin-left: 50px;
 }
 .bag_tap li {
+  font-family: 'SukhumvitSet'; 
   float: left;
   width: 215px;
   height: 40px;
-  margin: 5px 0px;
+  margin: 10px 0px;
+  font-size: 16px;
   text-align: center;
   list-style-type: none;
   background-color: #F1F1F2;
@@ -460,6 +469,77 @@ body {
 .bag_tap .active {
   background-color: #FFFFFF;
 }
+.bag_button_buy {
+    font-family: 'SukhumvitSet'; 
+    color: #000;
+    font-size: 16px;
+    border-radius: 25px;
+    background-color: #fff;
+    width: 180px;
+    height: 35px;
+    margin: 10px 10px;
+    border: 2px solid #A7A9AB;
+    float: left;
+}
+.bag_button_next {
+    font-family: 'SukhumvitSet'; 
+    color: #fff;
+    font-size: 16px;
+    border-radius: 25px;
+    background-color: #EF4036;
+    width: 180px;
+    height: 35px;
+    margin: 10px 10px;
+    border: 0px;
+    float: right;
+}
+.bag_button_code {
+    font-family: 'SukhumvitSet'; 
+    color: #fff;
+    font-size: 16px;
+    border-radius: 25px;
+    background-color: #F7911D;
+    width: 180px;
+    height: 35px;
+    margin: 10px 10px;
+    border: 0px;
+    float: left;
+}
+.bag_button_save {
+    font-family: 'SukhumvitSet'; 
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #F05C61;
+    width: 400px;
+    height: 80px;
+    margin: 10px 10px;
+    border: 0px;
+}
+.bag_button_ok {
+    font-family: 'SukhumvitSet'; 
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #F05C61;
+    width: 200px;
+    height: 40px;
+    margin: 10px 10px;
+    border: 0px;
+}
+
+.bag_button_add {
+    font-family: 'SukhumvitSet'; 
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #7EC67F;
+    width: 200px;
+    height: 40px;
+    margin: 10px 10px;
+    border: 0px;
+}
+
 .product_brand {
   width: 450px;
   float: left;
@@ -523,7 +603,7 @@ body {
 }
 .view_table_size {
   color: #000;
-  font-size: 18px;
+  font-size: 12px;
   border-radius: 25px;
   background-color: #fff;
   width: 130px;
@@ -627,6 +707,37 @@ body {
     background-color: white;
     
 }
+search_box {
+  width: 230px;
+  height: 550px;
+  display: block;
+}
+search_box p {
+  font-size: 10px;
+  margin-top: 20px;
+}
+.search {
+  width: 230px;
+  height: 230px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  position:relative;
+  -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
+     -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+     box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+  
+}
+
+.search img {
+    border: 1px solid #ddd;
+    padding: 5px;
+    color: #FFF;
+    background-color: white;
+    
+}
+
 .ribbon {
   width:80px;
   height:79px;
@@ -667,6 +778,58 @@ body {
   line-height:15px;
   margin: 0px 20px 20px 20px;
   width: 220px;
+}
+.newproducts_title {
+  float: left;
+  width: 480px;
+  color: black;
+  font-weight: bold;
+  font-family: 'SukhumvitSet'; 
+  font-size: 16px;
+  margin: 0px 20px 20px 20px;
+}
+.newproducts_title  a {
+  color: black;
+}
+.newproducts_page {
+  margin: 20px 200px;
+}
+.newproducts_page_p {
+  float: left;
+  background: #FFF;
+  margin: auto;
+  width: 300px;
+  height: auto;
+  margin: 20px 10px 40px 10px;
+  z-index: 99; 
+  position:relative;
+    -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
+     -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+     box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+
+}
+.newproducts_page_des {
+  font-size: 14px;
+  line-height:15px;
+  margin: 0px 20px 20px 20px;
+  width: 220px;
+}
+.newproducts_page_title {
+  float: left;
+  width: 480px;
+  color: black;
+  font-weight: bold;
+  font-family: 'SukhumvitSet'; 
+  font-size: 16px;
+  margin: 0px 20px 20px 20px;
+}
+.newproducts_page_title  a {
+  color: black;
+}
+.mybag {
+  float: right;
+  margin-top: -100px;
+  margin-right: 100px;
 }
 .view {
   font-family: 'DSESKW'; 
@@ -743,7 +906,9 @@ body {
   height: 2px;
 }
 .stores_branch {
-  width: 250px;
+   font-family: 'SukhumvitSet'; 
+   font-size: 20px;
+  width: 300px;
   float: left;
   margin: 20px 100px;
 }
