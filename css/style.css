@@ -35,14 +35,14 @@
 body {
   background-color: #FAFBFB;
 }
-.nav {
+.navigator {
   list-style: none;
   margin: 82px auto 0px auto;
   }
-.nav .nav-item{
+.navigator .nav-item{
   /*margin: 0px 5px;*/
 }
-.nav a {
+.navigator a {
   background-color: none;
   color: #fff !important;
   line-height: 30px;
@@ -56,7 +56,7 @@ body {
   margin-right: 5px; }
 
 .nav-link {
-  font-size: 0.7rem;
+  font-size: 1.1rem;
   text-align: center; 
 }
 
@@ -114,7 +114,7 @@ body {
 .language {
   position: relative;
   color: #EF4036;
-  font-size: 0.7rem;
+  font-size: 1.2rem;
   text-align: right;
   width: 1000px;
   height: 30px;
@@ -128,7 +128,7 @@ body {
 
 .login {
   color: #FFF;
-  font-size: 0.8rem;
+  font-size: 1.3rem;
   text-align: right;
   margin: auto;
   font-family: 'Franklin'; }
@@ -672,13 +672,14 @@ body {
   font-family: 'DSESKW'; 
   font-size: 20px;
   color: #EF4036;
-  background: url("../images/view.png") no-repeat; 
-  background-position: 200px -20px;
+  background: url(../images/view.png) no-repeat center 0px;
   text-align: center;
   display: block;
-  margin: auto; 
+  margin: -39px auto 0px auto; 
   z-index: 999999999; 
   position:relative;
+  height: 39px;
+  padding-top: 17px;
 }
 
 
@@ -707,13 +708,14 @@ body {
 }
 .social ul {
   list-style-type: none;
-
-
-
 }
+.social img{
+  height: 36px;
+}
+
+
 .social li {
-  float: left;
-  display: block;
+  display: inline-block;
   margin-left: 20px;
     
 }
@@ -747,7 +749,7 @@ body {
 }
 .menu_footer {
   color: #fff;
-  font-size: 30px;
+  font-size: 2rem;
   padding-top: 20px;
   padding-bottom: 20px;
   width: 1000px;
