@@ -98,7 +98,7 @@ gulp.task('replace:bower', function(){
         './dist/*.html',
         './dist/**/*.js',
     ], {base: './'})
-    .pipe(replace(/bower_components+.+(\/[a-z0-9][^/]*\.[a-z0-9]+(\'|\"))/ig, 'js/libs$1'))
+    .pipe(replace(bower_components+.+(\/[a-z0-9][^/]*\.[a-z0-9]+(\'|\"))/ig, 'js/libs$1'))
     .pipe(gulp.dest('./'));
 });
 
