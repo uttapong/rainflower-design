@@ -645,7 +645,7 @@
   width: 1000px;
   margin: auto;
   text-align: left;
-  z-index: 99999;
+  z-index: 999;
   position:relative;
   top:15px;
 }
