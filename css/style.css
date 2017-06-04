@@ -34,23 +34,28 @@
 
 .navigator {
   list-style: none;
-  margin: 82px auto 0px auto;
+  margin: 82px auto 0px -20px;
   }
 .navigator .nav-item{
   /*margin: 0px 5px;*/
+  width: 90px;
+  float: left;
+}
+.navigator .nav-item-dropdown p {
+ margin-left: 12px;
+}
+.navigator .nav-item-dropdown p:after{
+ content: "\25BC";
 }
 .navigator a {
-  background-color: none;
+
   color: #fff !important;
   line-height: 30px;
   height: 40px;
   border-radius: 100px;
   font-weight: 200;
   font-family: 'Franklin';
-  float: left;
-  display: block;
-  margin-left: 5px;
-  margin-right: 5px; }
+ }
 
 .nav-link {
   font-size: 1.1rem;
@@ -562,7 +567,7 @@
 .product_brand_viewall {
   float: left;
   margin:10px 20px;
-  background: url("../images/product_brand_viewall.png") no-repeat;
+  background: url("../images/product_brand_viewall.png") no-repeat !important;
   height: 30px;
   width: 156px;
   font-size: 24px;
@@ -574,10 +579,14 @@
   position: absolute;
 }
 
-.product_brand_sec {
+.selected-dropdown {
   float: left;
   margin:10px 280px;
-  background: url("../images/product_brand_sec.png") no-repeat;
+  margin-top: -40px;
+}
+.product_brand_sec {
+  
+  background: url("../images/product_brand_sec.png") no-repeat !important;
   height: 30px;
   width: 156px;
   font-size: 20px;
@@ -585,8 +594,8 @@
   color:#FFF;
   text-align: center;
   border: 0px;
-  margin-top: -40px;
-  position: absolute;
+  
+  /*position: absolute;*/
   
 }
 .viewallproduct {
@@ -614,6 +623,9 @@
 .right{
   float:right;
 }
+.search-form{
+
+}
 .textbox { 
     background: #FFF url("../images/search_icon.png") no-repeat; 
     background-position: 215px 5px !important;
@@ -628,7 +640,7 @@
     height:25px; 
     width: 240px; 
     text-align: right;
-    margin: 105px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
 }
 
 .footer {
@@ -835,9 +847,11 @@ search_box p {
   color: black;
 }
 .mybag {
+  /*float: right;
+  margin-top: -100px;*/
+  margin: 40px 0px 0 0;
+  width: 70px;
   float: right;
-  margin-top: -100px;
-  margin-right: 100px;
 }
 .view {
   font-family: 'DSESKW'; 
