@@ -34,11 +34,11 @@
 
 .navigator {
   list-style: none;
-  margin: 82px auto 0px -20px;
+  margin: 50px auto 0px 80px;
   }
 .navigator .nav-item{
-  /*margin: 0px 5px;*/
-  width: 90px;
+  margin: 0px 25px;
+  width: 80px;
   float: left;
 }
 .navigator .nav-item-dropdown p {
@@ -48,9 +48,8 @@
  content: "\25BC";
 }
 .navigator a {
-
   color: #fff !important;
-  line-height: 30px;
+  font-size: 1em;
   height: 40px;
   border-radius: 100px;
   font-weight: 200;
@@ -66,13 +65,13 @@
   display: block;
   margin: auto;
   background-color: #EF4036;
-  height: 160px; 
+  height: 150px; 
   margin-top: 0px;
   }
 .navibar-menu{
   clear:both;
   margin: 0px auto 0px auto;
-  width: 500px;
+  width: 900px;
   height: 32px;
 }
 .navibar .content{
@@ -631,8 +630,7 @@
 }
 .textbox { 
     background: #FFF url("../images/search_icon.png") no-repeat; 
-    background-position: 215px 5px !important;
-    font-family: 'Franklin';
+    background-position: 135px 5px !important;
     font-size: 14px;
     border: 1px solid #DDD; 
     padding-right: 25px;
@@ -642,7 +640,7 @@
     outline: none; 
     height:25px; 
     width: 240px; 
-    text-align: right;
+    text-align: center;
     margin: 20px 0px 0px 0px;
 }
 
@@ -657,7 +655,6 @@
 
 .menu_footer_cartoon {
   padding-top: 10px;
-  width: 1000px;
   margin: auto;
   text-align: left;
   z-index: 999;
@@ -856,6 +853,9 @@ search_box p {
   width: 70px;
   float: right;
 }
+.mybag img {
+  width: 40px;
+}
 .view {
   font-family: 'DSESKW'; 
   font-size: 20px;
@@ -899,6 +899,7 @@ search_box p {
 }
 .social img{
   height: 36px;
+  margin: 0px -20px;
 }
 
 
@@ -939,21 +940,26 @@ search_box p {
 }
 .menu_footer {
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 2.3rem;
   width: 100%;
   margin: auto;
   text-align: left;
   padding: 20px 50px;
+  font-family: 'DSESKW'; 
 }
 
 .menu_footer a {
   color: #fff;
+   margin: 0 20px;
   
 }
 
 .copyright_red{
   background-color: #BE2026;
   height: 50px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  
  }
 
  .copyright{
@@ -961,7 +967,7 @@ search_box p {
   text-align: left;
   width: 100%;
   margin: auto;
-  padding: 10px 50px 0 50px;
+  padding: 10px 50px 0 70px;
  }
 
 .clear
