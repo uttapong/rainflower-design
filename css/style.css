@@ -37,8 +37,7 @@
   margin: 50px auto 0px 80px;
   }
 .navigator .nav-item{
-  margin: 0px 25px;
-  width: 80px;
+  margin: 0px 23px;
   float: left;
 }
 .navigator .nav-item-dropdown p {
@@ -806,7 +805,7 @@ search_box p {
   font-weight: bold;
   font-family: 'SukhumvitSet'; 
   font-size: 16px;
-  margin: 0px 20px 20px 20px;
+  margin: 20px 20px 20px 20px;
 }
 .newproducts_title  a {
   color: black;
@@ -875,19 +874,6 @@ search_box p {
   color: #EF4036;
 }
 
-
-.newproducts_title {
-  float: left;
-  width: 480px;
-  color: black;
-  font-weight: bold;
-  font-family: 'SukhumvitSet'; 
-  font-size: 16px;
-  margin: 0px 20px 20px 20px;
-}
-.newproducts_title  a {
-  color: black;
-}
 
 .social {
   float: right;

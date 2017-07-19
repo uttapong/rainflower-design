@@ -31,60 +31,7 @@
   </head>
 
   <body>
-     <header style="height: 250px;">
-    <!-- <div id="logo"><a href="#"><img src="images/logo.png"></a></div> -->
-
-
-
-
-
-
-    <div class="language"><a href="">THAI</a> | <a href="">ENG</a></div>
-    <div class="navibar">
-
-      <div class="content clearfix holder">
-
-
-        <div class="column logo_icon"></div>
-        <div class="column navibar-menu">
-          <div id="logo">
-            <img src="images/logo_trans.png">
-          </div>
-          <ul class="navigator navibar-nav ">
-
-            <li class="nav-item">
-              <a class="nav-link" href="index.html"><img src="images/menu_home.png"><br/>HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="products_brandname.html"><img src="images/menu_product.png"><br/><p>PRODUCT</p></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="promotion.html"><img src="images/menu_promotion.png"><br/><p>PROMOTIONS</p></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="character.html"><img src="images/menu_character.png"><br/><p>CHARACTER</p></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="stores.html"><img src="images/menu_stores.png"><br/><p>STORES</p></a>
-            </li>
-          </ul>
-        </div>
-        
-        <div class="navibar-search column right">
-          <div class="mybag"><a href="bag.html"><img src="images/icon_bag_head.png"></a></div>
-          <div class="login"><a href="">Sign up</a> | <a href="">Log in</a></div>
-          <form class="search-form" action="search.html"> <input class="textbox" type="text" placeholder="Search"></form>
-        </div>
-        
-      </div>
-
-    </div>
-    <div class="navibar_bottom"></div>
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-
-
-  </header>
+          <?php include "inc_header.php"; ?>
     <content>
      <div class="content2">
        <div class="menusub"><a href="#"><img src="images/icon_back.png"></a><a href="">PRODUCT</a> | <a href="">BRAND_NAME</a> | <a href="">NAME_CATEGORY</a> | <a href="">NAME_PRODUCT</a> </div>
@@ -141,32 +88,8 @@ venenatis orci. Aliquam vel rhoncus risus. Sed ut elem
       <div class="clear"></div>
  
 
-   <footer>
-     <div class="menu_footer_cartoon_bg">
-     <div class="menu_footer_cartoon"><img src="images/menu_footer_cartoon.png"></div>
-     </div>
-    <div class="menu_footer_red">
-        <div class="menu_footer">
-          <a href="" title="">CONTACT US</a> <a href="" title="">ABOUT US</a> <a href="" title="">HOW TO BUY</a> <a href="" title="">FAQ</a>
-               <div class="social">
-                  <ul>
-                    <li><a href="#"><img src="images/icon_facebook.png"></a></li>
-                    <li><a href="#"><img src="images/icon_line.png"></a></li>
-                    <li><a href="#"><img src="images/icon_instagram.png"></a></li>
-                    <li><a href="#"><img src="images/icon_twitter.png"></a></li>
-                  </ul>
-              </div>
-        </div>
-        
-       
-
-    </div>
-     <div class="copyright_red">
-       <div class="copyright">copy right rainflower 1986</div>
-     </div>
-   </footer>
-     <a href="#0" class="cd-top">Top</a>
-     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-     <script src="js/main.js"></script> <!-- Gem jQuery -->
+  <footer>
+         <?php include "inc_footer.php"; ?>
+      </footer>
   </body>
 </html>

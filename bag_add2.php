@@ -10,15 +10,14 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Bag</title>
+    <title>ที่อยู่ในการจัดส่ง</title>
 
-   <!-- Bootstrap core CSS -->
+    <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
     <link href='https://fonts.googleapis.com/css?family=Quicksand:400,300,700|Patua+One|Roboto:400,700,300' rel='stylesheet' type='text/css'>
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
-    <link rel="stylesheet" href="bower_components/owl.carousel/dist/assets/owl.theme.default.min.css" />
+
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
@@ -30,76 +29,27 @@
     <![endif]-->
   </head>
 
+
   <body>
-     <header style="height: 250px;">
-    <!-- <div id="logo"><a href="#"><img src="images/logo.png"></a></div> -->
-
-
-
-
-
-
-    <div class="language"><a href="">THAI</a> | <a href="">ENG</a></div>
-    <div class="navibar">
-
-      <div class="content clearfix holder">
-
-
-        <div class="column logo_icon"></div>
-        <div class="column navibar-menu">
-          <div id="logo">
-            <img src="images/logo_trans.png">
-          </div>
-          <ul class="navigator navibar-nav ">
-
-            <li class="nav-item">
-              <a class="nav-link" href="index.html"><img src="images/menu_home.png"><br/>HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="products_brandname.html"><img src="images/menu_product.png"><br/><p>PRODUCT</p></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="promotion.html"><img src="images/menu_promotion.png"><br/><p>PROMOTIONS</p></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="character.html"><img src="images/menu_character.png"><br/><p>CHARACTER</p></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="stores.html"><img src="images/menu_stores.png"><br/><p>STORES</p></a>
-            </li>
-          </ul>
-        </div>
-        
-        <div class="navibar-search column right">
-          <div class="mybag"><a href="bag.html"><img src="images/icon_bag_head.png"></a></div>
-          <div class="login"><a href="">Sign up</a> | <a href="">Log in</a></div>
-          <form class="search-form" action="search.html"> <input class="textbox" type="text" placeholder="Search"></form>
-        </div>
-        
-      </div>
-
-    </div>
-    <div class="navibar_bottom"></div>
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-
-
-  </header>
+           <?php include "inc_header.php"; ?>
      <div class="content2">
        <div class="menusub"><a href="#"><img src="images/icon_back.png"></a><a href="">BAG</a></div>
        <div class="bag">
            <ul class="bag_tap">
-              <li class="active">1.ตะกร้าสินค้า</li>
-              <li>2.ที่อยู่ในการจัดส่ง</li>
+              <li>1.ตะกร้าสินค้า</li>
+              <li class="active">2.ที่อยู่ในการจัดส่ง</li>
               <li>3.ชำระเงิน</li>
               <li>4.เสร็จสิ้นการสั่งซื้อ</li>
            </ul>
-           <img src="images/bag.jpg" style="margin-left:50px;">
-           <button class="bag_button_buy">เลือกซื้อสินค้าเพิ่ม</button>
-           <button class="bag_button_code">กรอกรหัสโปรโมชั่น</button>
-           <form action="bag_add.html">
-           <button class="bag_button_next" >ดำเนินการต่อ >></button>
+           <div class='view_more'>
+             <form action="bag_payment.php">
+           <img src="images/add2.jpg" style="margin:auto;">
+           <div class="clear"></div>
+           
+           <button class="bag_button_add" type="reset">เพิ่มที่อยู่ใหม่</button>
+           <button class="bag_button_ok">ยืนยันข้อมูล</button>
            </form>
+           </div>
        </div>
        </div>
 
