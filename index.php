@@ -50,19 +50,19 @@
         </div>
         <div class="clear"></div>
 
-        <div class="bestseller">
+        <div class="col-xs-6 col-md-4 bestseller">
           <a href="products_detail.php" title="">
             <div class="ribbon"></div><img src="images/best1.jpg"></a>
         </div>
-        <div class="bestseller">
+        <div class="col-xs-6 col-md-4 bestseller">
           <a href="products_detail.php" title="">
             <div class="ribbon"></div><img src="images/best2.jpg"></a>
         </div>
-        <div class="bestseller">
+        <div class="col-xs-6 col-md-4 bestseller">
           <a href="products_detail.php" title="">
             <div class="ribbon"></div><img src="images/best3.jpg"></a>
         </div>
-        <div class="bestseller">
+        <div class="col-xs-6 col-md-4 bestseller">
           <a href="products_detail.php" title="">
             <div class="ribbon"></div><img src="images/best4.jpg"></a>
         </div>
