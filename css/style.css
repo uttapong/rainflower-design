@@ -667,7 +667,7 @@
 
 
 .content2 {
-  width: 1000px;
+  padding: 0px 30px;
   margin: auto;
 }
 
@@ -702,7 +702,10 @@
 }
 
 .bestseller {
-  height: 230px;
+ width: 230px;
+    height: 230px;
+    text-align: center;
+    margin: 15px auto;
   position:relative;
   -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
      -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
@@ -1055,9 +1058,7 @@ search_box p {
     height: 650px;
     background-size: cover;
     margin-bottom: 30px; } 
-  .content2{
-        width: auto;
-  }
+
 }
 .price {
   margin-top: 10px;
