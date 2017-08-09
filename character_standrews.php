@@ -32,8 +32,8 @@
 
   <body>
            <?php include "inc_header.php"; ?>
-    <content>
-     <div class="content2">
+<div class="container">
+  <div class="content2">
        <div class="menusub"><a href="#"><img src="images/icon_back.png"></a><a href="character.php">CHARACTER</a> | <a href="">ST.ANDREWS</a></div>
        
       <div class="row">
@@ -76,8 +76,8 @@
       </div>
         
        
-       </div>
-    <content>
+  </div>
+</div>
       <div class="clear"></div>
  
 

@@ -31,81 +31,108 @@
   </head>
 
   <body>
-           <?php include "inc_header.php"; ?>
+<?php include "inc_header.php"; ?>
+<div class="container">
      <div class="content2">
        <div class="menusub"><a href="#"><img src="images/icon_back.png"></a><a href="">Search : Keyword</a><div class="search_result">Search RESULT 12 </div></div>
               
-              <div class="search">
-                <a href="products_detail.html" title=""><div class="ribbon"></div><img src="images/best1.jpg">
-                <div class="search_result_title">Lorem ipsum dolor sit amet, consecte</a>
-                <p>Lorem ipsum dolor sit amet, consecte</p></div>
-             </div>
+            <a href="products_detail.php" title="">
+                  <div class="search">
+                    <div class="ribbon"></div>
+                    <img src="images/best1.jpg">
+                    <div class="search_result_title">Lorem ipsum dolor sit amet, consecte</div>
+                    <p>tur adipiscing elit. In tincidunt egestasodio, a tristique felis viverra aliquam.Maecenas at sapien pretium......</p>
+                 </div>
+            </a>
 
-             <div class="search">
-                <a href="products_detail.html" title=""><div class="ribbon"></div><img src="images/best1.jpg">
-                <div class="search_result_title">Lorem ipsum dolor sit amet, consecte</a>
-                <p>Lorem ipsum dolor sit amet, consecte</p></div>
-             </div>
+             <a href="products_detail.php" title="">
+                  <div class="search">
+                    <div class="ribbon"></div>
+                    <img src="images/best1.jpg">
+                    <div class="search_result_title">Lorem ipsum dolor sit amet, consecte</div>
+                    <p>tur adipiscing elit. In tincidunt egestasodio, a tristique felis viverra aliquam.Maecenas at sapien pretium......</p>
+                 </div>
+            </a>
 
-             <div class="search">
-                <a href="products_detail.html" title=""><img src="images/best1.jpg">
-                <div class="search_result_title">Lorem ipsum dolor sit amet, consecte</a>
-                <p>Lorem ipsum dolor sit amet, consecte</p></div>
-             </div>
+            <a href="products_detail.php" title="">
+                  <div class="search">
+                    <img src="images/best1.jpg">
+                    <div class="search_result_title">Lorem ipsum dolor sit amet, consecte</div>
+                    <p>tur adipiscing elit. In tincidunt egestasodio, a tristique felis viverra aliquam.Maecenas at sapien pretium......</p>
+                 </div>
+            </a>
 
-             <div class="search">
-                <a href="products_detail.html" title=""><img src="images/best1.jpg">
-                <div class="search_result_title">Lorem ipsum dolor sit amet, consecte</a>
-                <p>Lorem ipsum dolor sit amet, consecte</p></div>
-             </div>
+            <a href="products_detail.php" title="">
+                  <div class="search">
+                    <img src="images/best1.jpg">
+                    <div class="search_result_title">Lorem ipsum dolor sit amet, consecte</div>
+                    <p>tur adipiscing elit. In tincidunt egestasodio, a tristique felis viverra aliquam.Maecenas at sapien pretium......</p>
+                 </div>
+            </a>
 
-             <div class="search">
-                <a href="products_detail.html" title=""><img src="images/best1.jpg">
-                <div class="search_result_title"> dolor sit amet, consecte</a>
-                <p>Lorem ipsum dolor sit amet, consecte</p></div>
-             </div>
+            <a href="products_detail.php" title="">
+                  <div class="search">
+                    <img src="images/best1.jpg">
+                    <div class="search_result_title">Lorem ipsum dolor sit amet, consecte</div>
+                    <p>tur adipiscing elit. In tincidunt egestasodio, a tristique felis viverra aliquam.Maecenas at sapien pretium......</p>
+                 </div>
+            </a>
 
-             <div class="search">
-                <a href="products_detail.html" title=""><img src="images/best1.jpg">
-                <div class="search_result_title">Lorem ipsum dolor sit amet, consecte</a>
-                <p>Lorem ipsum dolor sit amet, consecte</p></div>
-             </div>
+             <a href="products_detail.php" title="">
+                  <div class="search">
+                    <img src="images/best1.jpg">
+                    <div class="search_result_title">Lorem ipsum dolor sit amet, consecte</div>
+                    <p>tur adipiscing elit. In tincidunt egestasodio, a tristique felis viverra aliquam.Maecenas at sapien pretium......</p>
+                 </div>
+            </a>
 
-             <div class="search">
-                <a href="products_detail.html" title=""><img src="images/best1.jpg">
-                <div class="search_result_title">Lorem ipsum dolor sit amet, consecte</a>
-                <p>Lorem ipsum dolor sit amet, consecte</p></div>
-             </div>
+            <a href="products_detail.php" title="">
+                  <div class="search">
+                    <img src="images/best1.jpg">
+                    <div class="search_result_title">Lorem ipsum dolor sit amet, consecte</div>
+                    <p>tur adipiscing elit. In tincidunt egestasodio, a tristique felis viverra aliquam.Maecenas at sapien pretium......</p>
+                 </div>
+            </a>
 
-             <div class="search">
-                <a href="products_detail.html" title=""><img src="images/best1.jpg">
-                <div class="search_result_title">Lorem ipsum dolor sit amet, consecte</a>
-                <p>Lorem ipsum dolor sit amet, consecte</p></div>
-             </div>
+            <a href="products_detail.php" title="">
+                  <div class="search">
+                    <img src="images/best1.jpg">
+                    <div class="search_result_title">Lorem ipsum dolor sit amet, consecte</div>
+                    <p>tur adipiscing elit. In tincidunt egestasodio, a tristique felis viverra aliquam.Maecenas at sapien pretium......</p>
+                 </div>
+            </a>
 
-             <div class="search">
-                <a href="products_detail.html" title=""><img src="images/best1.jpg">
-                <div class="search_result_title">Lorem ipsum dolor sit amet, consecte</a>
-                <p>Lorem ipsum dolor sit amet, consecte</p></div>
-             </div>
+            <a href="products_detail.php" title="">
+                  <div class="search">
+                    <img src="images/best1.jpg">
+                    <div class="search_result_title">Lorem ipsum dolor sit amet, consecte</div>
+                    <p>tur adipiscing elit. In tincidunt egestasodio, a tristique felis viverra aliquam.Maecenas at sapien pretium......</p>
+                 </div>
+            </a>
 
-             <div class="search">
-                <a href="products_detail.html" title=""><img src="images/best1.jpg">
-                <div class="search_result_title">Lorem ipsum dolor sit amet, consecte</a>
-                <p>Lorem ipsum dolor sit amet, consecte</p></div>
-             </div>
+            <a href="products_detail.php" title="">
+                  <div class="search">
+                    <img src="images/best1.jpg">
+                    <div class="search_result_title">Lorem ipsum dolor sit amet, consecte</div>
+                    <p>tur adipiscing elit. In tincidunt egestasodio, a tristique felis viverra aliquam.Maecenas at sapien pretium......</p>
+                 </div>
+            </a>
 
-             <div class="search">
-                <a href="products_detail.html" title=""><img src="images/best1.jpg">
-                <div class="search_result_title">Lorem ipsum dolor sit amet, consecte</a>
-                <p>Lorem ipsum dolor sit amet, consecte</p></div>
-             </div>
+            <a href="products_detail.php" title="">
+                  <div class="search">
+                    <img src="images/best1.jpg">
+                    <div class="search_result_title">Lorem ipsum dolor sit amet, consecte</div>
+                    <p>tur adipiscing elit. In tincidunt egestasodio, a tristique felis viverra aliquam.Maecenas at sapien pretium......</p>
+                 </div>
+            </a>
 
-             <div class="search">
-                <a href="products_detail.html" title=""><img src="images/best1.jpg">
-                <div class="search_result_title">Lorem ipsum dolor sit amet, consecte</a>
-                <p>Lorem ipsum dolor sit amet, consecte</p></div>
-             </div>
+            <a href="products_detail.php" title="">
+                  <div class="search">
+                    <img src="images/best1.jpg">
+                    <div class="search_result_title">Lorem ipsum dolor sit amet, consecte</div>
+                    <p>tur adipiscing elit. In tincidunt egestasodio, a tristique felis viverra aliquam.Maecenas at sapien pretium......</p>
+                 </div>
+            </a>
               
 
                
@@ -115,6 +142,7 @@
 
        
        </div>
+</div>
       <div class="clear"></div>
  
 

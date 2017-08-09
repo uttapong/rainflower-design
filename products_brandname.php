@@ -32,14 +32,14 @@
 
   <body>
           <?php include "inc_header.php"; ?>
-    <content>
-     <div class="content2">
+<div class="container">
+  <div class="content2">
        <div class="menusub"><a href="#"><img src="images/icon_back.png"></a><a href="">PRODUCT</a> | <a href="">BRAND_NAME</a></div>
        <div class="product_brand">
          <div class="product_brand_title">TOY</div>
          <img src="images/products_toy.jpg">
          <div class="product_brand_bar"></div>
-         <a class="product_brand_viewall" href="products_brand_name_cat.html">VIEW ALL</a>
+         <a class="product_brand_viewall" href="products_brand_name_cat.php">VIEW ALL</a>
            <div class="dropdown selected-dropdown">
               <button class="product_brand_sec btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">SELECTED
               <span class="caret"></span></button>
@@ -58,7 +58,7 @@
          <div class="product_brand_title">SHIRT TOYS</div>
          <img src="images/products_shirttoys.jpg">
          <div class="product_brand_bar"></div>
-           <button class="product_brand_viewall">VIEW ALL</button>
+           <a class="product_brand_viewall" href="products_brand_name_cat.php">VIEW ALL</a>
            <div class="dropdown selected-dropdown">
               <button class="product_brand_sec btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">SELECTED
               <span class="caret"></span></button>
@@ -74,7 +74,7 @@
          <div class="product_brand_title">HOUSE HOLD</div>
          <img src="images/products_household.jpg">
          <div class="product_brand_bar"></div>
-           <button class="product_brand_viewall">VIEW ALL</button>
+           <a class="product_brand_viewall" href="products_brand_name_cat.php">VIEW ALL</a>
            <div class="dropdown selected-dropdown">
               <button class="product_brand_sec btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true">SELECTED
               <span class="caret"></span></button>
@@ -103,7 +103,7 @@
          <div class="product_brand_title">CAR ACCESSORIES</div>
          <img src="images/products_car.jpg">
          <div class="product_brand_bar"></div>
-           <button class="product_brand_viewall">VIEW ALL</button>
+           <a class="product_brand_viewall" href="products_brand_name_cat.php">VIEW ALL</a>
            <div class="dropdown selected-dropdown">
               <button class="product_brand_sec btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">SELECTED
               <span class="caret"></span></button>
@@ -128,8 +128,8 @@
        </div>
 
        
-       </div>
-    <content>
+  </div>
+</div>   
       <div class="clear"></div>
  
 

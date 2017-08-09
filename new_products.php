@@ -32,44 +32,56 @@
 
   <body>
            <?php include "inc_header.php"; ?>
-    <content>
+<div class="container">
      <div class="content2">
        <div class="menusub"><a href="#"><img src="images/icon_back.png"></a><a href="">NEW PRODUCTS</a></div>
               
-              <div class="newproducts_page_p"><a href="products_detail.html"><img src="images/newproducts.jpg" width="300px;"><div class="view"><a href="#" tilte="">View</a></div>
-                  <div class="newproducts_page_title">Lorem ipsum dolor sit amet, consecte</a></div>
-                  <div class="newproducts_page_des">tur adipiscing elit. In tincidunt egestas odio, a tristique felis viverra aliquam. Maecenas at sapien pretium......</div>  
+              <div class="newproducts_page_p">
+                  <a href="products_detail.html"><img src="images/newproducts.jpg" width="300px;"></a>
+                  <div class="view"><a href="#" tilte="">View</a></div>
+                  <div class="newproducts_page_title">Lorem ipsum dolor sit amet, consecte</div>
+                  <div class="newproducts_page_des">tur adipiscing elit. In tincidunt egestas odio, a tristique felis viverra aliquam. Maecenas at sapien pretium.....</div>
               </div>
 
-              <div class="newproducts_page_p"><a href="products_detail.html"><img src="images/newproducts.jpg" width="300px;"><div class="view"><a href="#" tilte="">View</a></div>
-                  <div class="newproducts_page_title">Lorem ipsum dolor sit amet, consecte</a></div>
-                  <div class="newproducts_page_des">tur adipiscing elit. In tincidunt egestas odio, a tristique felis viverra aliquam. Maecenas at sapien pretium......</div>  
+              <div class="newproducts_page_p">
+                  <a href="products_detail.html"><img src="images/newproducts.jpg" width="300px;"></a>
+                  <div class="view"><a href="#" tilte="">View</a></div>
+                  <div class="newproducts_page_title">Lorem ipsum dolor sit amet, consecte</div>
+                  <div class="newproducts_page_des">tur adipiscing elit. In tincidunt egestas odio, a tristique felis viverra aliquam. Maecenas at sapien pretium.....</div>
               </div>
 
-             <div class="newproducts_page_p"><a href="products_detail.html"><img src="images/newproducts.jpg" width="300px;"><div class="view"><a href="#" tilte="">View</a></div>
-                  <div class="newproducts_page_title">Lorem ipsum dolor sit amet, consecte</a></div>
-                  <div class="newproducts_page_des">tur adipiscing elit. In tincidunt egestas odio, a tristique felis viverra aliquam. Maecenas at sapien pretium......</div>  
+             <div class="newproducts_page_p">
+                  <a href="products_detail.html"><img src="images/newproducts.jpg" width="300px;"></a>
+                  <div class="view"><a href="#" tilte="">View</a></div>
+                  <div class="newproducts_page_title">Lorem ipsum dolor sit amet, consecte</div>
+                  <div class="newproducts_page_des">tur adipiscing elit. In tincidunt egestas odio, a tristique felis viverra aliquam. Maecenas at sapien pretium.....</div>
               </div>
 
-              <div class="newproducts_page_p"><a href="products_detail.html"><img src="images/newproducts.jpg" width="300px;"><div class="view"><a href="#" tilte="">View</a></div>
-                  <div class="newproducts_page_title">Lorem ipsum dolor sit amet, consecte</a></div>
-                  <div class="newproducts_page_des">tur adipiscing elit. In tincidunt egestas odio, a tristique felis viverra aliquam. Maecenas at sapien pretium......</div>  
+              <div class="newproducts_page_p">
+                  <a href="products_detail.html"><img src="images/newproducts.jpg" width="300px;"></a>
+                  <div class="view"><a href="#" tilte="">View</a></div>
+                  <div class="newproducts_page_title">Lorem ipsum dolor sit amet, consecte</div>
+                  <div class="newproducts_page_des">tur adipiscing elit. In tincidunt egestas odio, a tristique felis viverra aliquam. Maecenas at sapien pretium.....</div>
               </div>
 
-              <div class="newproducts_page_p"><a href="products_detail.html"><img src="images/newproducts.jpg" width="300px;"><div class="view"><a href="#" tilte="">View</a></div>
-                  <div class="newproducts_page_title">Lorem ipsum dolor sit amet, consecte</a></div>
-                  <div class="newproducts_page_des">tur adipiscing elit. In tincidunt egestas odio, a tristique felis viverra aliquam. Maecenas at sapien pretium......</div>  
+              <div class="newproducts_page_p">
+                  <a href="products_detail.html"><img src="images/newproducts.jpg" width="300px;"></a>
+                  <div class="view"><a href="#" tilte="">View</a></div>
+                  <div class="newproducts_page_title">Lorem ipsum dolor sit amet, consecte</div>
+                  <div class="newproducts_page_des">tur adipiscing elit. In tincidunt egestas odio, a tristique felis viverra aliquam. Maecenas at sapien pretium.....</div>
               </div>
 
-              <div class="newproducts_page_p"><a href="products_detail.html"><img src="images/newproducts.jpg" width="300px;"><div class="view"><a href="#" tilte="">View</a></div>
-                  <div class="newproducts_page_title">Lorem ipsum dolor sit amet, consecte</a></div>
-                  <div class="newproducts_page_des">tur adipiscing elit. In tincidunt egestas odio, a tristique felis viverra aliquam. Maecenas at sapien pretium......</div>  
+              <div class="newproducts_page_p">
+                  <a href="products_detail.html"><img src="images/newproducts.jpg" width="300px;"></a>
+                  <div class="view"><a href="#" tilte="">View</a></div>
+                  <div class="newproducts_page_title">Lorem ipsum dolor sit amet, consecte</div>
+                  <div class="newproducts_page_des">tur adipiscing elit. In tincidunt egestas odio, a tristique felis viverra aliquam. Maecenas at sapien pretium.....</div>
               </div>
              
 
        
        </div>
-    <content>
+</div>
       <div class="clear"></div>
  
 

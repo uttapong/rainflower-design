@@ -32,31 +32,33 @@
 
   <body>
            <?php include "inc_header.php"; ?>
-    <content>
-     <div class="content2">
+<div class="container">
+  <div class="content2">
        <div class="menusub"><a href="#"><img src="images/icon_back.png"></a><a href="">PROMOTION</a></div>
        
       
         <div class="promotion">
-          <a href="promotion_detail.html"><img src="images/promotion.jpg"/a>
+          <a href="promotion_detail.php"><img src="images/promotion.jpg"/a>
         </div>
 
         <div class="promotion">
-          <a href="promotion_detail.html"><img src="images/promotion.jpg"/a>
+          <a href="promotion_detail.php"><img src="images/promotion.jpg"/a>
         </div>
 
         <div class="promotion">
-          <a href="promotion_detail.html"><img src="images/promotion.jpg"/a>
+          <a href="promotion_detail.php"><img src="images/promotion.jpg"/a>
         </div>
 
         <div class="promotion">
-          <a href="promotion_detail.html"><img src="images/promotion.jpg"/a>
+          <a href="promotion_detail.php"><img src="images/promotion.jpg"/a>
         </div>
+        
         <div class='view_more'>
           <button class="viewallproduct">VIEW ALL PROMOTION</button>
         </div>
        
-       </div>
+  </div>
+</div>
     <content>
       <div class="clear"></div>
  

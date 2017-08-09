@@ -32,28 +32,27 @@
 
   <body>
            <?php include "inc_header.php"; ?>
-    <content>
-     <div class="content2">
+<div class="container">
+  <div class="content2">
        <div class="menusub"><a href="#"><img src="images/icon_back.png"></a><a href="">PROMOTION</a> | <a href="">PROMOTION DETAIL</a></div>
        
-        <div class="promotion_detail">
-        <div class="promotion_img">
-          <img src="images/promotion_img.jpg"/a>
-        </div>
-        <div class="dmy_promotion">11 JAN 2016</div>
-        <div class="likeshare" style="margin:0px 70px;"><img src="images/like_share.png"></div>
-        <div class="promotion_title">Lorem ipsum dolor sit amet, consecte</div>
-        <div class="clear"></div>
-        <p>Proin neque urna, luctus id mattis quis, interdum sed velit. Maecenas mattis turpis eget molestie eleifend. 
-Suspendisse aliquet velit purus, at laoreet justo luctus
- nec. Duis mattis et sapien ut sodales. Pellentesque ha
-bitant morbi tristique senectus et netus et malesuada 
-fames ac turpis egestas. Quisque nisi quam, consequat 
-venenatis orci. Aliquam vel rhoncus risus. Sed ut elem</p>
-    
-       </div>
-       </div>
-    <content>
+          <div class="promotion_detail">
+            <div class="promotion_img"><img src="images/promotion_img.jpg"/a></div>
+            <div class="dmy_promotion">11 JAN 2016</div>
+            <div class="likeshare" style="margin:0px 70px;"><img src="images/like_share.png"></div>
+            <div class="promotion_title">Lorem ipsum dolor sit amet, consecte</div>
+            <div class="clear"></div>
+            <p>Proin neque urna, luctus id mattis quis, interdum sed velit. Maecenas mattis turpis eget molestie eleifend. 
+    Suspendisse aliquet velit purus, at laoreet justo luctus
+     nec. Duis mattis et sapien ut sodales. Pellentesque ha
+    bitant morbi tristique senectus et netus et malesuada 
+    fames ac turpis egestas. Quisque nisi quam, consequat 
+    venenatis orci. Aliquam vel rhoncus risus. Sed ut elem</p>
+      
+         </div>
+
+  </div>
+</div>
       <div class="clear"></div>
  
 

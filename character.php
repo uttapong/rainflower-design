@@ -32,23 +32,23 @@
 
   <body>
           <?php include "inc_header.php"; ?>
-    <content>
-     <div class="content2">
+<div class="container">
+  <div class="content2">
        <div class="menusub"><a href="#"><img src="images/icon_back.png"></a><a href="">CHARACTER</a></div>
        
       <div class="row"> 
-        
-      <div class="character_logo_center">
-        <div class="character_logo col-xs-6 col-md-6">
-          <a href="character_rainflower.php"><img src="images/logo_character_rainflower.png"/a>
-        </div>
-        <div class="character_logo col-xs-6 col-md-6">
-          <a href="character_standrews.php"><img src="images/logo_character_standrews.png"/a>
+        <div class="character_logo_center">
+            <div class="character_logo col-xs-6 col-md-6">
+              <a href="character_rainflower.php"><img src="images/logo_character_rainflower.png"/a>
+            </div>
+            <div class="character_logo col-xs-6 col-md-6">
+              <a href="character_standrews.php"><img src="images/logo_character_standrews.png"/a>
+            </div>
         </div>
       </div>
-      </div>
+
     </div>
-    <content>
+</div>
       <div class="clear"></div>
  
 

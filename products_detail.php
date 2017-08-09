@@ -32,8 +32,8 @@
 
   <body>
           <?php include "inc_header.php"; ?>
-    <content>
-     <div class="content2">
+<div class="container">
+  <div class="content2">
        <div class="menusub"><a href="#"><img src="images/icon_back.png"></a><a href="">PRODUCT</a> | <a href="">BRAND_NAME</a> | <a href="">NAME_CATEGORY</a> | <a href="">NAME_PRODUCT</a> </div>
        <div class="product_pic">
          <div class="product_img">
@@ -80,11 +80,10 @@ venenatis orci. Aliquam vel rhoncus risus. Sed ut elem
        <div class="line-x"></div>
         <div class="addtobag"><a href="#"><img src="images/icon_bag.png"><br/><img src="images/addtobag.png"> ADD TO BAG</a></div>
         </div>
-       </div>
-     
-      
-    
-    <content>
+
+
+  </div>  
+</div>
       <div class="clear"></div>
  
 

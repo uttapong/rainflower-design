@@ -32,8 +32,10 @@
 
   <body>
          <?php include "inc_header.php"; ?>
+<div class="container">
      <div class="content2">
        <div class="menusub"><a href="#"><img src="images/icon_back.png"></a><a href="">STORES</a></div>
+       
        <div class="stores">
          <div class="stores_logo"><img src="images/logo_stores_central.png"></div>
          <div class="stores_logo"><img src="images/logo_stores_robinson.png"></div>
@@ -70,8 +72,8 @@
        </div>
        
        </div>
-       
-     </div>
+</div>      
+    
        
     
       <div class="clear"></div>

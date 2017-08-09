@@ -32,7 +32,7 @@
 
   <body>
            <?php include "inc_header.php"; ?>
-    <content>
+<div class="container">
      <div class="content2">
        <div class="menusub"><a href="#"><img src="images/icon_back.png"></a><a href="">PRODUCT</a> | <a href="">BRAND</a> | <a href="">NAME CATGORY</a></div>
               <div class="bestseller"><a href="#" title=""><div class="ribbon"></div><img src="images/best1.jpg"></a></div>
@@ -52,7 +52,7 @@
 
        
        </div>
-    <content>
+</div>
       <div class="clear"></div>
  
 

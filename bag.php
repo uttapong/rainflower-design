@@ -32,7 +32,8 @@
 
   <body>
       <?php include "inc_header.php"; ?>
-     <div class="content2">
+<div class="container">
+  <div class="content2">
        <div class="menusub"><a href="#"><img src="images/icon_back.png"></a><a href="">BAG</a></div>
        <div class="bag">
            <ul class="bag_tap">
@@ -48,14 +49,14 @@
            <button class="bag_button_next" >ดำเนินการต่อ >></button>
            </form>
        </div>
-       </div>
+       
 
 
       
        
        
-       
-     </div>
+   </div>    
+</div>
 
 
     

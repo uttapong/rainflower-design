@@ -32,8 +32,8 @@
 
   <body>
           <?php include "inc_header.php"; ?>
-    <content>
-     <div class="content2">
+<div class="container">
+  <div class="content2">
        <div class="menusub"><a href="#"><img src="images/icon_back.png"></a><a href="">BEST SELLER</a></div>
               
               <div class="bestseller"><a href="products_detail.php" title=""><div class="ribbon"></div><img src="images/best1.jpg"></a></div>
@@ -56,7 +56,7 @@
 
        
        </div>
-    <content>
+</div>
       <div class="clear"></div>
  
 
