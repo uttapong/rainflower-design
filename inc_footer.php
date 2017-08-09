@@ -3,9 +3,11 @@
         </div>
         <div class="menu_footer_red">
           <div class="menu_footer">
+            <div class="footer-link col-xs-12 col-md-8">
             <a href="" title="">CONTACT US</a> <a href="" title="">ABOUT US</a> <a href="" title="">HOW TO BUY</a> <a href=""
               title="">FAQ</a>
-            <div class="social">
+            </div>
+            <div class="social col-xs-12 col-md-4">
               <ul>
                 <li><a href="#"><img src="images/icon_facebook.png"></a></li>
                 <li><a href="#"><img src="images/icon_line.png"></a></li>
@@ -13,14 +15,15 @@
                 <li><a href="#"><img src="images/icon_twitter.png"></a></li>
               </ul>
             </div>
+            <div class="copyright_red col-xs-12 col-md-12">
+          <div class="copyright">copy right rainflower 1986</div>
+        </div>
           </div>
 
 
 
         </div>
-        <div class="copyright_red">
-          <div class="copyright">copy right rainflower 1986</div>
-        </div>
+        
         <a href="#0" class="cd-top">Top</a>
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
       <script src="bower_components/owl.carousel/dist/owl.carousel.min.js"></script>

@@ -33,7 +33,7 @@
 
 <body>
  <?php include "inc_header.php"; ?>
-  <content>
+  
 
     <div class="owl-carousel owl-theme">
       <div> <img src="images/slider1.jpg" width="100%"> </div>
@@ -41,6 +41,9 @@
       <div> <img src="images/slider3.jpg" width="100%"> </div>
     </div>
     <div id="dots-container"></div>
+
+    <div class="container">
+
     <div class="bestseller_bg">
       <div class="content2">
         <div class="title">
@@ -86,34 +89,42 @@
           <div class="viewall"><a href="new_products.php" tilte="">view all</a></div>
         </div>
         <div class="clear"></div>
-        <a href="products_detail.php">
-          <div class="newproducts_p"><img src="images/newproducts.jpg">
-            <div class="view"><a href="#" tilte="">View</a></div>
-            <div class="newproducts_title">Lorem ipsum dolor sit amet, consecte</a>
-        </div>
-        <div class="newproducts_des">tur adipiscing elit. In tincidunt egestas odio, a tristique felis viverra aliquam. Maecenas at sapien pretium......</div>
 
-        </div>
-        <a href="products_detail.php">
-          <div class="newproducts_p" style="margin-left: 20px;"><img src="images/newproducts.jpg">
-            <div class="view"><a href="#" tilte="">View</a></div>
-            <div class="newproducts_title">Lorem ipsum dolor sit amet, consecte</a>
-        </div>
-        <div class="newproducts_des">tur adipiscing elit. In tincidunt egestas odio, a tristique felis viverra aliquam. Maecenas at sapien pretium......</div>
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+          <a href="products_detail.php">
+            <div class="newproducts_p">
+              <img src="images/newproducts.jpg">
+              <div class="view">
+                <a href="#" tilte="">View</a>
+              </div>
+              <div class="newproducts_title">Lorem ipsum dolor sit amet, consecte</div>
+              <div class="newproducts_des">tur adipiscing elit. In tincidunt egestas odio, a tristique felis viverra aliquam. Maecenas at sapien pretium......</div>
+            </div>
+          </a>
+          </div>
 
-        </div>
+          <div class="col-xs-12 col-md-6">
+          <a href="products_detail.php">
+            <div class="newproducts_p">
+              <img src="images/newproducts.jpg">
+              <div class="view">
+                <a href="#" tilte="">View</a>
+              </div>
+              <div class="newproducts_title">Lorem ipsum dolor sit amet, consecte</div>
+              <div class="newproducts_des">tur adipiscing elit. In tincidunt egestas odio, a tristique felis viverra aliquam. Maecenas at sapien pretium......</div>
+            </div>
+          </a>
+          </div>
 
 
+        </div><!--end row-->
 
-      </div>
+      </div><!--end newproducts-->
 
       <div class="clear"></div>
-    </div>
-    </div>
-
-    <content>
-
-
+    </div><!--end content2-->
+    </div><!--end container-->
 
       <footer>
          <?php include "inc_footer.php"; ?>
