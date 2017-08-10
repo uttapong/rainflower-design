@@ -38,19 +38,19 @@
        
       
         <div class="promotion">
-          <a href="promotion_detail.php"><img src="images/promotion.jpg"/a>
+          <a href="promotion_detail.php"><img src="images/promotion.jpg"></a>
         </div>
 
         <div class="promotion">
-          <a href="promotion_detail.php"><img src="images/promotion.jpg"/a>
+          <a href="promotion_detail.php"><img src="images/promotion.jpg"></a>
         </div>
 
         <div class="promotion">
-          <a href="promotion_detail.php"><img src="images/promotion.jpg"/a>
+          <a href="promotion_detail.php"><img src="images/promotion.jpg"></a>
         </div>
 
         <div class="promotion">
-          <a href="promotion_detail.php"><img src="images/promotion.jpg"/a>
+          <a href="promotion_detail.php"><img src="images/promotion.jpg"></a>
         </div>
         
         <div class='view_more'>
@@ -59,7 +59,6 @@
        
   </div>
 </div>
-    <content>
       <div class="clear"></div>
  
 

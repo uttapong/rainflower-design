@@ -39,10 +39,10 @@
       <div class="row"> 
         <div class="character_logo_center">
             <div class="character_logo col-xs-6 col-md-6">
-              <a href="character_rainflower.php"><img src="images/logo_character_rainflower.png"/a>
+              <a href="character_rainflower.php"><img src="images/logo_character_rainflower.png"></a>
             </div>
             <div class="character_logo col-xs-6 col-md-6">
-              <a href="character_standrews.php"><img src="images/logo_character_standrews.png"/a>
+              <a href="character_standrews.php"><img src="images/logo_character_standrews.png"></a>
             </div>
         </div>
       </div>
