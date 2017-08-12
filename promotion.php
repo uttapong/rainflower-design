@@ -67,7 +67,6 @@
        
   </div>
 </div>
-    <content>
       <div class="clear"></div>
  
 

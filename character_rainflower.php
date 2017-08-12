@@ -49,6 +49,18 @@
         <div class="character col-xs-6 col-md-3">
           <a href="#"><img src="images/logo_character_rainflower_4.jpg">> CHARACTER 4</a>
         </div>
+        <div class="character col-xs-6 col-md-3">
+          <a href="character_rainflower_1.php"><img src="images/logo_character_rainflower_1.jpg">> CHARACTER 1</a>
+        </div>
+        <div class="character col-xs-6 col-md-3">
+          <a href="#"><img src="images/logo_character_rainflower_2.jpg">> CHARACTER 2</a>
+        </div>
+        <div class="character col-xs-6 col-md-3">
+          <a href="#"><img src="images/logo_character_rainflower_3.jpg">> CHARACTER 3</a>
+        </div>
+        <div class="character col-xs-6 col-md-3">
+          <a href="#"><img src="images/logo_character_rainflower_4.jpg">> CHARACTER 4</a>
+        </div>
       </div>
         
        
