@@ -36,41 +36,58 @@
      <div class="content2">
        <div class="menusub"><a href="#"><img src="images/icon_back.png"></a><a href="">STORES</a></div>
        
-       <div class="stores">
-         <div class="stores_logo"><img src="images/logo_stores_central.png"></div>
-         <div class="stores_logo"><img src="images/logo_stores_robinson.png"></div>
-         <div class="stores_logo"><img src="images/logo_stores_themall.png"></div>
-         <div class="stores_logo"><img src="images/logo_stores_paragon.png"></div>
-         <div class="stores_logo"><img src="images/logo_stores_zeenzone.png"></div>
+       <div class="stores row">
+
+        <div class="col-md-3 col-xs-6">
+          <div class="stores_logo"><img src="images/logo_stores_central.png"></div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="stores_logo"><img src="images/logo_stores_robinson.png"></div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="stores_logo"><img src="images/logo_stores_themall.png"></div>
+        </div>         
+        <div class="col-md-3 col-xs-6">
+        <div class="stores_logo"><img src="images/logo_stores_paragon.png"></div>
+        </div>         
+        <div class="col-md-3 col-xs-6">
+        <div class="stores_logo"><img src="images/logo_stores_zeenzone.png"></div>
+        </div>
+
        </div>
 
-       <div class="clear"></div>
+       <div class="row">
+       <div class="col-md-6 col-xs-12">
+         <div class="stores_branch">
+           <p>CENTRAL ชิดลม ชั้น 3</p>
+           <p>CENTRAL พระราม 3 ชั้น 3</p>
+           <p>CENTRAL พระราม 2 ชั้น 3</p>
+           <p>CENTRAL ปิ่นเกล้า ชั้น 3</p>
+         </div>
+       </div>
+       <div class="col-md-6 col-xs-12">
        <div class="stores_branch">
          <p>CENTRAL ชิดลม ชั้น 3</p>
          <p>CENTRAL พระราม 3 ชั้น 3</p>
          <p>CENTRAL พระราม 2 ชั้น 3</p>
          <p>CENTRAL ปิ่นเกล้า ชั้น 3</p>
        </div>
-       <div class="stores_branch">
-         <p>CENTRAL ชิดลม ชั้น 3</p>
-         <p>CENTRAL พระราม 3 ชั้น 3</p>
-         <p>CENTRAL พระราม 2 ชั้น 3</p>
-         <p>CENTRAL ปิ่นเกล้า ชั้น 3</p>
        </div>
-       <div class="clear"></div>
-
-       <div class="stores_bar"></div>
+       <hr style="width: 100%; color: black; height: 1px; background-color:black;" />
        
-       <div class="clear"></div>
+       <div class="col-md-6 col-xs-12">
        <div class="stores_branch">
          <p>CENTRAL FESTIVAL เชียงใหม่ ชั้น 4</p>
          <p>CENTRAL FESTIVAL หาดใหญ่ ชั้น 4</p>
        </div>
+       </div>
+       <div class="col-md-6 col-xs-12">
        <div class="stores_branch">
          <p>CENTRAL FESTIVAL เชียงใหม่ ชั้น 4</p>
          <p>CENTRAL FESTIVAL หาดใหญ่ ชั้น 4</p>
        </div>
-       
+       </div>
+       </div><!--end row-->
        </div>
 </div>      
     

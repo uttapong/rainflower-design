@@ -35,6 +35,8 @@
 <div class="container">
   <div class="content2">
        <div class="menusub"><a href="#"><img src="images/icon_back.png"></a><a href="">PRODUCT</a> | <a href="">BRAND_NAME</a></div>
+       
+       <div class="col-md-6 col-xs-12">
        <div class="product_brand">
          <div class="product_brand_title">TOY</div>
          <img src="images/products_toy.jpg">
@@ -53,7 +55,9 @@
               </ul>
           </div>
        </div>
+       </div>
 
+      <div class="col-md-6 col-xs-12">
        <div class="product_brand">
          <div class="product_brand_title">SHIRT TOYS</div>
          <img src="images/products_shirttoys.jpg">
@@ -69,7 +73,9 @@
           </div>
          
        </div>
+       </div>
 
+       <div class="col-md-6 col-xs-12">
        <div class="product_brand">
          <div class="product_brand_title">HOUSE HOLD</div>
          <img src="images/products_household.jpg">
@@ -97,8 +103,9 @@
           </div>
          
        </div>
+       </div>
 
-
+      <div class="col-md-6 col-xs-12">
        <div class="product_brand">
          <div class="product_brand_title">CAR ACCESSORIES</div>
          <img src="images/products_car.jpg">
@@ -123,7 +130,8 @@
           </div>
          
        </div>
-       <div class='view_more'>
+       </div>
+       <div class='view_more col-xs-12'>
       <button class="viewallproduct">VIEW ALL PRODUCTS</button>
        </div>
 

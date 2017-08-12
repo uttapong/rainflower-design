@@ -37,23 +37,31 @@
        <div class="menusub"><a href="#"><img src="images/icon_back.png"></a><a href="">PROMOTION</a></div>
        
       
+        <div class="col-md-6 col-xs-12">
         <div class="promotion">
-          <a href="promotion_detail.php"><img src="images/promotion.jpg"/a>
+          <a href="promotion_detail.php"><img src="images/promotion.jpg" /></a>
+        </div>
         </div>
 
+        <div class="col-md-6 col-xs-12">
         <div class="promotion">
-          <a href="promotion_detail.php"><img src="images/promotion.jpg"/a>
+          <a href="promotion_detail.php"><img src="images/promotion.jpg" /></a>
+        </div>
         </div>
 
+        <div class="col-md-6 col-xs-12">
         <div class="promotion">
-          <a href="promotion_detail.php"><img src="images/promotion.jpg"/a>
+          <a href="promotion_detail.php"><img src="images/promotion.jpg" /></a>
+        </div>
         </div>
 
+        <div class="col-md-6 col-xs-12">
         <div class="promotion">
-          <a href="promotion_detail.php"><img src="images/promotion.jpg"/a>
+          <a href="promotion_detail.php"><img src="images/promotion.jpg" /></a>
+        </div>
         </div>
         
-        <div class='view_more'>
+        <div class='view_more  col-xs-12'>
           <button class="viewallproduct">VIEW ALL PROMOTION</button>
         </div>
        

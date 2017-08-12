@@ -13,6 +13,9 @@
 content.container{
   padding: 0 30px;
 }
+a:hover{
+  text-decoration: none;
+}
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -163,8 +166,7 @@ content.container{
   float: right;
 }
 .promotion img {
-  width: 450px;
-  float: left;
+  width: 100%;
   margin: 20px 20px 20px 20px;
   border-radius: 20px;
 }
@@ -197,9 +199,8 @@ content.container{
   margin: auto;
 }
 .character_logo {
-  width: 250px;
-  margin: 0px 20px;
-  margin-bottom: 50px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 .character  {
   width: 230px;
@@ -553,13 +554,14 @@ content.container{
 }
 
 .product_brand {
-  width: 450px;
-  float: left;
-  margin: 30px 20px;
+  padding: 3px;
+  margin: 30px 0 0 0;
+}
+.product_brand img{
+  width: 100%;
 }
 .product_brand_title {
   text-align: center;
-  width: 450px;
   margin: auto;
   font-family: 'DSESKW'; 
   color:#EF4036;
@@ -587,8 +589,8 @@ content.container{
 }
 
 .selected-dropdown {
-  float: left;
-  margin:10px 280px;
+  float: right;
+  margin:10px 10px;
   margin-top: -40px;
 }
 .product_brand_sec {
@@ -610,11 +612,10 @@ content.container{
   text-align: center;
   background-color: #EF4036;
   border: 0px;
-  font-size: 30px;
+  font-size: 2.8rem;
   font-family: 'DSESKW'; 
   color:#FFF;
-  height: 50px;
-  width: 300px;
+  padding: 5px 30px;
   border-radius: 10px;
 }
 .view_table_size {
@@ -913,14 +914,17 @@ search_box p {
   
 }
 .stores {
-  width: 900px;
-  margin: 20px 80px;
-  background-color: #000;
+  margin-bottom: 30px;
+}
+.stores>div{
+  margin-bottom: 20px;
 }
 .stores_logo {
-  width: 180px;
-  margin: 20px 20px;
-  float: left;
+  width: 100%;
+  text-align: center;
+}
+.stores_logo img{
+  width: 100%;
 }
 .stores_bar {
   background-color: #808284;
@@ -931,9 +935,6 @@ search_box p {
 .stores_branch {
    font-family: 'SukhumvitSet'; 
    font-size: 20px;
-  width: 300px;
-  float: left;
-  margin: 20px 100px;
 }
 .menu_footer {
   color: #fff;
@@ -1042,6 +1043,7 @@ search_box p {
   text-align: center;
   margin: 10px 0 30px 0; }
 
+
 @media (min-width: 992px) {
   .buybtn {
     height: 63px;
@@ -1087,7 +1089,19 @@ footer {
   margin: 20px 0; }
 
 .view_more{
-  width: 1000px;
-    margin: 50px auto 20px auto;
+    margin: 30px auto 20px auto;
     text-align: center;
+}
+
+@media (max-width: 1200px){
+  .product_brand_viewall{
+    display:none;
+  }
+  .content2{
+    padding: 0px;
+  }
+
+  .viewallproduct {
+    padding: 5px 30px;
+}
 }
