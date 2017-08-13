@@ -36,7 +36,7 @@
   <div class="content2">
        <div class="menusub"><a href="#"><img src="images/icon_back.png"></a><a href="">PROMOTION</a></div>
        
-      
+      <div class="row">
         <div class="col-md-6 col-xs-12">
         <div class="promotion">
           <a href="promotion_detail.php"><img src="images/promotion.jpg" /></a>
@@ -64,6 +64,7 @@
         <div class='view_more  col-xs-12'>
           <button class="viewallproduct">VIEW ALL PROMOTION</button>
         </div>
+      </div>
        
   </div>
 </div>

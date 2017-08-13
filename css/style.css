@@ -149,7 +149,7 @@ a:hover{
   color: #FFF;}
 
 .menusub {
-  margin: 20px 20px;
+  margin: 20px 0px;
   font-family: 'SukhumvitSet';
   font-size: 14px;  
 }
@@ -167,7 +167,7 @@ a:hover{
 }
 .promotion img {
   width: 100%;
-  margin: 20px 20px 20px 20px;
+  margin: 20px 0px 20px 0px;
   border-radius: 20px;
 }
 
@@ -774,6 +774,7 @@ search_box p {
   } 
 .nextpage {
  float: right; 
+ margin-top: 45px;
 }
 .nextpage img {
  margin-left: 150px; 
@@ -1103,5 +1104,11 @@ footer {
 
   .viewallproduct {
     padding: 5px 30px;
+  }
+
+  .cd-top {
+ 
+    bottom: 40px;
+    right: 20px;
 }
 }

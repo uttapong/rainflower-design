@@ -35,19 +35,47 @@
 <div class="container">
      <div class="content2">
        <div class="menusub"><a href="#"><img src="images/icon_back.png"></a><a href="">PRODUCT</a> | <a href="">BRAND</a> | <a href="">NAME CATGORY</a></div>
-              <div class="bestseller"><a href="#" title=""><div class="ribbon"></div><img src="images/best1.jpg"></a></div>
-              <div class="bestseller"><a href="#" title=""><div class="ribbon"></div><img src="images/best2.jpg"></a></div>
-              <div class="bestseller"><a href="#" title=""><div class="ribbon"></div><img src="images/best3.jpg"></a></div>
-              <div class="bestseller"><a href="#" title=""><div class="ribbon"></div><img src="images/best4.jpg"></a></div>
-              <div class="bestseller"><a href="#" title=""><img src="images/best4.jpg"></a></div>
-              <div class="bestseller"><a href="#" title=""><img src="images/best3.jpg"></a></div>
-              <div class="bestseller"><a href="#" title=""><img src="images/best2.jpg"></a></div>
-              <div class="bestseller"><a href="#" title=""><img src="images/best1.jpg"></a></div>
-              <div class="bestseller"><a href="#" title=""><img src="images/best1.jpg"></a></div>
-              <div class="bestseller"><a href="#" title=""><img src="images/best2.jpg"></a></div>
-              <div class="bestseller"><a href="#" title=""><img src="images/best3.jpg"></a></div>
-              <div class="bestseller"><a href="#" title=""><img src="images/best4.jpg"></a></div>
-              <div class="nextpage"><a href=""><img src="images/icon_back.png"></a><a href=""><img src="images/icon_next.png"></a></div>
+
+
+<div class="col-xs-12 col-md-3">
+<div class="bestseller">
+  <a href="#" title="">
+    <div class="ribbon"></div><img src="images/best1.jpg"></a>
+</div>
+</div>
+<div class="col-xs-12 col-md-3">
+<div class="bestseller">
+  <a href="#" title="">
+    <div class="ribbon"></div><img src="images/best2.jpg"></a>
+</div></div>
+<div class="col-xs-12 col-md-3">
+<div class="bestseller">
+  <a href="#" title="">
+    <div class="ribbon"></div><img src="images/best3.jpg"></a>
+</div></div>
+<div class="col-xs-12 col-md-3">
+<div class="bestseller">
+  <a href="#" title="">
+    <div class="ribbon"></div><img src="images/best4.jpg"></a>
+</div></div>
+<div class="col-xs-12 col-md-3">
+<div class="bestseller"><a href="#" title=""><img src="images/best4.jpg"></a></div></div>
+<div class="col-xs-12 col-md-3">
+<div class="bestseller"><a href="#" title=""><img src="images/best3.jpg"></a></div></div>
+<div class="col-xs-12 col-md-3">
+<div class="bestseller"><a href="#" title=""><img src="images/best2.jpg"></a></div></div>
+<div class="col-xs-12 col-md-3">
+<div class="bestseller"><a href="#" title=""><img src="images/best1.jpg"></a></div></div>
+<div class="col-xs-12 col-md-3">
+<div class="bestseller"><a href="#" title=""><img src="images/best1.jpg"></a></div></div>
+<div class="col-xs-12 col-md-3">
+<div class="bestseller"><a href="#" title=""><img src="images/best2.jpg"></a></div></div>
+<div class="col-xs-12 col-md-3">
+<div class="bestseller"><a href="#" title=""><img src="images/best3.jpg"></a></div></div>
+<div class="col-xs-12 col-md-3">
+<div class="bestseller"><a href="#" title=""><img src="images/best4.jpg"></a></div></div>
+<div class="col-xs-12">
+<div class="nextpage"><a href=""><img src="images/icon_back.png"></a><a href=""><img src="images/icon_next.png"></a></div></div>
              
 
        
