@@ -38,40 +38,40 @@
        
       <div class="row">
         <div class="character col-xs-6 col-md-3">
-          <a href="#"><img src="images/logo_character_rainflower_1.jpg">> CHARACTER 1</a>
+          <a href="character_rainflower_1.php"><img src="images/logo_character_rainflower_1.jpg">> CHARACTER 1</a>
         </div>
         <div class="character col-xs-6 col-md-3">
-          <a href="#"><img src="images/logo_character_rainflower_2.jpg">> CHARACTER 2</a>
+          <a href="character_rainflower_1.php"><img src="images/logo_character_rainflower_2.jpg">> CHARACTER 2</a>
         </div>
         <div class="character col-xs-6 col-md-3">
-          <a href="#"><img src="images/logo_character_rainflower_3.jpg">> CHARACTER 3</a>
+          <a href="character_rainflower_1.php"><img src="images/logo_character_rainflower_3.jpg">> CHARACTER 3</a>
         </div>
         <div class="character col-xs-6 col-md-3">
-          <a href="#"><img src="images/logo_character_rainflower_4.jpg">> CHARACTER 4</a>
+          <a href="character_rainflower_1.php"><img src="images/logo_character_rainflower_4.jpg">> CHARACTER 4</a>
         </div>
         <div class="character col-xs-6 col-md-3">
-          <a href="#"><img src="images/logo_character_rainflower_1.jpg">> CHARACTER 5</a>
+          <a href="character_rainflower_1.php"><img src="images/logo_character_rainflower_1.jpg">> CHARACTER 5</a>
         </div>
         <div class="character col-xs-6 col-md-3">
-          <a href="#"><img src="images/logo_character_rainflower_2.jpg">> CHARACTER 6</a>
+          <a href="character_rainflower_1.php"><img src="images/logo_character_rainflower_2.jpg">> CHARACTER 6</a>
         </div>
         <div class="character col-xs-6 col-md-3">
-          <a href="#"><img src="images/logo_character_rainflower_3.jpg">> CHARACTER 7</a>
+          <a href="character_rainflower_1.php"><img src="images/logo_character_rainflower_3.jpg">> CHARACTER 7</a>
         </div>
         <div class="character col-xs-6 col-md-3">
-          <a href="#"><img src="images/logo_character_rainflower_4.jpg">> CHARACTER 8</a>
+          <a href="character_rainflower_1.php"><img src="images/logo_character_rainflower_4.jpg">> CHARACTER 8</a>
         </div>
         <div class="character col-xs-6 col-md-3">
-          <a href="#"><img src="images/logo_character_rainflower_1.jpg">> CHARACTER 9</a>
+          <a href="character_rainflower_1.php"><img src="images/logo_character_rainflower_1.jpg">> CHARACTER 9</a>
         </div>
         <div class="character col-xs-6 col-md-3">
-          <a href="#"><img src="images/logo_character_rainflower_2.jpg">> CHARACTER 10</a>
+          <a href="character_rainflower_1.php"><img src="images/logo_character_rainflower_2.jpg">> CHARACTER 10</a>
         </div>
         <div class="character col-xs-6 col-md-3">
-          <a href="#"><img src="images/logo_character_rainflower_3.jpg">> CHARACTER 11</a>
+          <a href="character_rainflower_1.php"><img src="images/logo_character_rainflower_3.jpg">> CHARACTER 11</a>
         </div>
         <div class="character col-xs-6 col-md-3">
-          <a href="#"><img src="images/logo_character_rainflower_4.jpg">> CHARACTER 12</a>
+          <a href="character_rainflower_1.php"><img src="images/logo_character_rainflower_4.jpg">> CHARACTER 12</a>
         </div>
       </div>
         
