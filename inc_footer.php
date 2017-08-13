@@ -7,7 +7,10 @@
             <a href="" title="">CONTACT US</a> <a href="" title="">ABOUT US</a> <a href="" title="">HOW TO BUY</a> <a href=""
               title="">FAQ</a>
             </div>
-            <div class="social col-xs-12 col-md-4">
+            <div class="footer-follow col-xs-4 col-md-8">
+           <p>FOLLOW ME</p>
+            </div>
+            <div class="social col-xs-8 col-md-4">
               <ul>
                 <li><a href="#"><img src="images/icon_facebook.png"></a></li>
                 <li><a href="#"><img src="images/icon_line.png"></a></li>
