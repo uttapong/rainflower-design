@@ -179,19 +179,21 @@ a:hover{
   margin-left: 100px;
 }
 .promotion_img img {
-  width: 850px;
-  margin: 10px 50px 20px 80px;
+  margin: 10px 0px 20px 0px;
   border-radius: 20px;
+  width: 100%;
 }
 .promotion_title {
-  width: 1000px;
-  float: left;
+  width: 100%;
   color: black;
   font-weight: bold;
   font-family: 'SukhumvitSet'; 
-  font-size: 18px;
-  margin-left: 80px;
+  font-size: 2rem;
   margin-bottom: 30px;
+  text-align:center;
+}
+.promotion_content{
+  margin-bottom: 50px;
 }
 .character_logo_center {
   text-align: center;
@@ -203,11 +205,6 @@ a:hover{
     text-align: center;
 }
 .character  {
-  width: 230px;
-  height: 230px;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
   margin-bottom: 20px;
   border-radius: 20px;
   text-align: center;
@@ -216,6 +213,7 @@ a:hover{
 }
 .character img {
   border-radius: 20px;
+  width: 100%;
 }
 .character a {
   width: 200px;
@@ -230,20 +228,26 @@ a:hover{
   margin-left: 100px;
 }
 .character_img img {
-  width: 850px;
-  margin: 10px 50px 20px 80px;
+  width: 100%;
+  margin: 10px 0px 20px 0px;
 }
 .character_detail_img_center {
   text-align: center;
-  margin: 10px 50px 20px 80px;
 }
 .character_detail_img {
-  width: 283px;
+  
   float: left;
+}
+.character_detail_img img{
+  width: 100%;
 }
 .character_related {
   position:relative;
   text-align:center;
+  
+}
+.character_related img{
+ width: 100%;
   
 }
 .character_related_bar {
@@ -288,15 +292,13 @@ a:hover{
     padding: 5px;
     color: #FFF;
     background-color: white;
-    width: 230px;
     -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
      -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
      box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
 }
 .character_related p {
-  width: 230px;
   margin: 10px auto;
-  font-size: 16px;
+    font-size: 1.4rem;
   line-height: 20px;
   font-family: 'SukhumvitSet'; 
 }
@@ -313,25 +315,34 @@ a:hover{
   border-radius: 10px;
 }
 .product_pic {
-  width: 550px;
-  float: left;
+  width: 100%;
+}
+.product_img{
+  text-align: center;
+  padding: 10px;
 }
 .product_img img {
   border-radius: 25px;
-  margin: 0px 50px 20px 50px;
+  width: 100%;
 }
+.product_thumb img{
+  width: 100%;
+}
+.product_thumb .thumb{
+  margin-bottom: 15px;
+}
+
 .product_thum img {
   margin: 0px 10px 20px 10px;
 }
 .likeshare {
-  float: right;
+  text-align:right;
+  margin-top: 15px;
 }
 .likeshare_left {
   float: left;
 }
 .product_description {
-  float: left;
-  width: 450px;
 }
 .product_title {
   font-size: 18px;
@@ -347,7 +358,7 @@ a:hover{
   color: black;
 }
 .dmy_promotion {
-  margin: 0px 20px 20px 100px;
+  margin: 0px 20px 20px 00px;
   text-align: left;
   font-size: 12px;
   font-family: 'SukhumvitSet';
@@ -355,7 +366,6 @@ a:hover{
   float: left;
 }
 .barpink {
-  width: 420px;
   height: 5px;
   border-radius: 3px;
   background-color: #F06D87;

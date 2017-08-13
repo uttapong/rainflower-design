@@ -34,20 +34,27 @@
           <?php include "inc_header.php"; ?>
 <div class="container">
   <div class="content2">
+      <div class="row">
+      <div class="col-xs-12">
        <div class="menusub"><a href="#"><img src="images/icon_back.png"></a><a href="">PRODUCT</a> | <a href="">BRAND_NAME</a> | <a href="">NAME_CATEGORY</a> | <a href="">NAME_PRODUCT</a> </div>
+       </div>
+       <div class="col-md-6 col-xs-12">
        <div class="product_pic">
          <div class="product_img">
             <img src="images/products.png">
          </div>
-         <div class="product_thum" style="margin:0 0 0 40px;">
-           <img src="images/img_thum.png">
-           <img src="images/img_thum.png">
-           <img src="images/img_thum.png">
-           <img src="images/img_thum.png">
+         <div class="col-xs-12 product_thumb">
+          <div class="row">
+           <div class="col-xs-6 col-md-3 thumb"><img src="images/img_thum.png"/></div>
+           <div class="col-xs-6 col-md-3 thumb"><img src="images/img_thum.png"/></div>
+           <div class="col-xs-6 col-md-3 thumb"><img src="images/img_thum.png"/></div>
+           <div class="col-xs-6 col-md-3 thumb"><img src="images/img_thum.png"/></div>
+           </div>
          </div>
-         <div class="likeshare"><img src="images/like_share.png"></div>
+         <div class="likeshare col-xs-12"><img src="images/like_share.png"></div>
        </div>
-
+       </div>
+       <div class="col-md-6 col-xs-12">
        <div class="product_description">
         <div class="dmyttt">11 JAN 2016</div>
         <div class="product_title">Lorem ipsum dolor sit amet, consecte</div>
@@ -80,8 +87,8 @@ venenatis orci. Aliquam vel rhoncus risus. Sed ut elem
        <div class="line-x"></div>
         <div class="addtobag"><a href="#"><img src="images/icon_bag.png"><br/><img src="images/addtobag.png"> ADD TO BAG</a></div>
         </div>
-
-
+        </div>
+        </div>
   </div>  
 </div>
       <div class="clear"></div>

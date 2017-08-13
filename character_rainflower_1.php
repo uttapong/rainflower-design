@@ -36,18 +36,24 @@
   <div class="content2">
        <div class="menusub"><a href="#"><img src="images/icon_back.png"></a><a href="character.html">CHARACTER</a> | <a href="character_rainflower.html">RAINFLOWER</a> | <a href="">CHARACTER 1</a></div>
        
+       <div class="row">
+         <div class="col-xs-12">
         <div class="character_detail">
         <div class="character_img">
           <img src="images/character1.jpg"/a>
         </div>
+        
+        </div>
+        </div>
         <div class="clear"></div>
         <div class="character_detail_img_center">
-          <div class="character_detail_img"><a href="#"><img src="images/character_rainflower_detail_1.jpg"></a></div>
-          <div class="character_detail_img"><a href="#"><img src="images/character_rainflower_detail_2.jpg"></a></div>
-          <div class="character_detail_img"><a href="#"><img src="images/character_rainflower_detail_3.jpg"></a></div>
+          <div class="character_detail_img col-xs-4"><a href="#"><img src="images/character_rainflower_detail_1.jpg"></a></div>
+          <div class="character_detail_img col-xs-4"><a href="#"><img src="images/character_rainflower_detail_2.jpg"></a></div>
+          <div class="character_detail_img col-xs-4"><a href="#"><img src="images/character_rainflower_detail_3.jpg"></a></div>
         </div> 
-        <div class="likeshare_left" style="margin:20px 70px;"><img src="images/like_share.png"></div> 
+        <div class="likeshare_left col-xs-12" style="margin:20px 0px;"><img src="images/like_share.png"></div> 
         <div class="clear"></div>
+        
         </div>
   </div>
 </div>
