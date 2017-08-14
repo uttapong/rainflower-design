@@ -42,21 +42,32 @@
             // nav:true,
             dots: true,
             // dotsContainer:'dots-container',
-            items: 1,
             autoplay: true,
             pagination: false,
-            navigation: true
-            // responsive:{
-            //     0:{
-            //         items:1
-            //     },
-            //     600:{
-            //         items:3
-            //     },
-            //     1000:{
-            //         items:5
-            //     }
-            // }
+            navigation: true,
+            responsive:{
+                0:{
+                    items:1,
+                    autoWidth:true
+                },
+                600:{
+                    items:3,
+                    stagePadding: 100,
+                    autoWidth:true
+                },
+                1000:{
+                    items:3,
+                    stagePadding: 300,
+                    autoWidth:true
+                }
+            }
           });
         });
-      </script>
+</script>
+<script>
+  
+  $('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay').toggleClass('open');
+  });
+  </script>
